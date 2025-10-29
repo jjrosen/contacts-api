@@ -7,6 +7,7 @@ class CreateContacts < ActiveRecord::Migration[7.2]
       t.string :email
       t.string :b_day
 
+      
       t.timestamps
     end
   end
